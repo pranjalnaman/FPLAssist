@@ -13,7 +13,7 @@ errorFile=open("errorfile.txt","w")
 errorFile.close()
 #Website from which to scrape
 while i<700:
-	with urllib.request.urlopen("http://fantasy.premierleague.com/drf/element-summary/" + str(i) + "/") as url:
+	with urllib.request.urlopen("http://fantasy.premierleague.com/drf/element-summary/" + str(i)) as url:
 		htmltext=url.read();
 	#Use a try-except block to ignore htmls that do not relate to players
 	try:
