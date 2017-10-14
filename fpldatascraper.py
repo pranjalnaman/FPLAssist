@@ -359,7 +359,7 @@ def export_data():
     print('......\n')
     sort_csv('PlayerResultStats.csv', 'pmid')
     print('DONE!')
-    print("ALL DATA SCRAPED")
+    print("ALL DATA SCRAPED!!")
 
 
 if __name__ == '__main__':
