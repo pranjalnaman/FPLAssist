@@ -5,12 +5,13 @@ import time
 import os
 import json
 import urllib.request
-import asyncio as async
+#import requests
 import pandas as pd
-from aiohttp import ClientSession
+#from aiohttp import ClientSession
 from unidecode import unidecode
 
 #Initializing empty dictionaries that will converted to csv files later
+
 TOTAL_PAST_STATS = {}
 CURR_SEASON_STATS = {}
 PLAYERS = {}
@@ -37,8 +38,10 @@ def get_curr_stats():
         4: 'FWD'
     }
 
-    r = requests.get('https://fantasy.premierleague.com/drf/bootstrap-static')
-    bootstrap_data = r.json()
+    r = urllib.request.Request(url='https://fantasy.premierleague.com/drf/bootstrap-static')
+    
+    htmltext=urllib.request.urlopen(r);
+    bootstrap_data = json.load(htmltext)
     global numOfPlayers
     
     #Getting the number of players so as to avoid unnecessary http calls
@@ -46,15 +49,15 @@ def get_curr_stats():
     numOfPlayers = len(bootstrap_data['elements'])
 
     # Getting All Players' Info
-    i=1
+    i=0
 
     while i<numOfPlayers:
 
         # unidecode replaces accented letters in player names with ascii characters
         
-        playerNames.append(unidecode(bootstrap_data['elements'][i]['first_name'])
+        playerNames.append((bootstrap_data['elements'][i]['first_name'])
                             + ' '
-                            + unidecode(bootstrap_data['elements'][i]['second_name']))
+                            + (bootstrap_data['elements'][i]['second_name']))
 
         # # Get Player's Team
         # team_code = bootstrap_data['elements'][i]['team_code']
@@ -129,8 +132,10 @@ def get_fixture_results():
         17: 'Mauricio Pochettino', 18: 'Marco Silva', 19: 'Tony Pulis', 20: 'Slaven Bilic'
     }
 
-    r = requests.get('https://fantasy.premierleague.com/drf/fixtures')
-    fixtures_data = r.json()
+    r = urllib.request.Request('https://fantasy.premierleague.com/drf/fixtures')
+    htmltext2=urllib.request.urlopen(r)
+    fixtures_data = json.load(htmltext2)
+
 
     for fixture in fixtures_data:
         home_team = team_dictionary[fixture['team_h']]
@@ -212,25 +217,28 @@ def get_history():
 
     for pid in range(1, numOfPlayers + 1):
         player_name = playerNames[pid - 1]
-        r = requests.get(player_url.format(pid))
+        r = urllib.request.Request(player_url.format(pid))
+        
+
         print('Grabbing ' + player_name)
 
         # Skip broken URLs
-        if r.status_code != 200:
-            misses += 1
-            print('BROKEN URL @ PLAYER #: ' + str(pid) + '\n')
-            print(player_name + ' should be here!\n')
-            # More than one miss in a row - end of requests!
-            if misses > 1:
-                print('Two broken URLs in a row...')
-                print('Something is wrong with your connection or the API.\n')
-                sys.exit()
-            continue
+        # if r.status_code != 200:
+        #     misses += 1
+        #     print('BROKEN URL @ PLAYER #: ' + str(pid) + '\n')
+        #     print(player_name + ' should be here!\n')
+        #     # More than one miss in a row - end of requests!
+        #     if misses > 1:
+        #         print('Two broken URLs in a row...')
+        #         print('Something is wrong with your connection or the API.\n')
+        #         sys.exit()
+        #     continue
 
-        # Reset 'missing' counter to continue loop through entire API endpoint.
-        misses = 0
+        # # Reset 'missing' counter to continue loop through entire API endpoint.
+        # misses = 0
 
-        player_data = r.json()
+        htmltext1=urllib.request.urlopen(r);
+        player_data = json.load(htmltext1)
 
         # Number of seasons previously played in the PL
         past_season_count = len(player_data['history_past'])
@@ -289,7 +297,7 @@ def dict_to_csv(json_data, filename, headers, tablename):
             for i in json_data:
                 writer.writerow(json_data[i])
         finally:
-            print(tablename, ' written to CSV successfully.')
+            print(tablename, ' written to CSV successfully.\n')
 
 
 def sort_csv(csv_filename, sorting_key):
@@ -301,7 +309,7 @@ def sort_csv(csv_filename, sorting_key):
     :return: None
     """
 
-    df = pd.read_csv(csv_filename)
+    df = pd.read_csv(csv_filename,encoding='latin-1')
     df = df.sort_values(by=sorting_key)
     os.remove(csv_filename)
     df.to_csv(csv_filename, index=False)
@@ -328,7 +336,7 @@ def export_data():
                           'Player_pid']
     result_table_headers = ['id', 'gameweek', 'home_score', 'away_score', 'home_team', 'away_team',
                             'home_mgr', 'away_mgr']
-    prs_table_headers = ['pid', 'points', 'mins_played', 'goals_scored', 'assists', 'clean_sheets',
+    prs_table_headers = ['pmid', 'points', 'mins_played', 'goals_scored', 'assists', 'clean_sheets',
                          'goals_conceded', 'own_goals', 'penalties_saved', 'penalties_missed',
                          'yellow_cards', 'red_cards', 'saves', 'influence', 'creativity', 'threat',
                          'ict_index', 'Result_id', 'Player_pid']
@@ -351,6 +359,7 @@ def export_data():
     print('......\n')
     sort_csv('PlayerResultStats.csv', 'pmid')
     print('DONE!')
+    print("ALL DATA SCRAPED")
 
 
 if __name__ == '__main__':
