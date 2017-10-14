@@ -1,0 +1,380 @@
+1,1,4.0,3.0,Arsenal,Leicester City,Arsene Wenger,Craig Shakespeare
+2,1,0.0,2.0,Brighton and Hove Albion,Manchester City,Chris Hughton,Pep Guardiola
+3,1,2.0,3.0,Chelsea,Burnley,Antonio Conte,Sean Dyche
+4,1,0.0,3.0,Crystal Palace,Huddersfield Town,Roy Hodgson,David Wagner
+5,1,1.0,0.0,Everton,Stoke City,Ronald Koeman,Mark Hughes
+6,1,0.0,0.0,Southampton,Swansea City,Mauricio Pellegrino,Paul Clement
+7,1,3.0,3.0,Watford,Liverpool,Marco Silva,Jurgen Klopp
+8,1,1.0,0.0,West Bromwich Albion,Bournemouth,Tony Pulis,Eddie Howe
+9,1,4.0,0.0,Manchester United,West Ham United,Jose Mourinho,Slaven Bilic
+10,1,0.0,2.0,New Castle United,Tottenham Hotspur,Rafael Benitez,Mauricio Pochettino
+11,2,0.0,2.0,Bournemouth,Watford,Eddie Howe,Marco Silva
+12,2,0.0,1.0,Burnley,West Bromwich Albion,Sean Dyche,Tony Pulis
+13,2,2.0,0.0,Leicester City,Brighton and Hove Albion,Craig Shakespeare,Chris Hughton
+14,2,1.0,0.0,Liverpool,Crystal Palace,Jurgen Klopp,Roy Hodgson
+15,2,3.0,2.0,Southampton,West Ham United,Mauricio Pellegrino,Slaven Bilic
+16,2,1.0,0.0,Stoke City,Arsenal,Mark Hughes,Arsene Wenger
+17,2,0.0,4.0,Swansea City,Manchester United,Paul Clement,Jose Mourinho
+18,2,1.0,0.0,Huddersfield Town,New Castle United,David Wagner,Rafael Benitez
+19,2,1.0,2.0,Tottenham Hotspur,Chelsea,Mauricio Pochettino,Antonio Conte
+20,2,1.0,1.0,Manchester City,Everton,Pep Guardiola,Ronald Koeman
+21,3,1.0,2.0,Bournemouth,Manchester City,Eddie Howe,Pep Guardiola
+22,3,2.0,0.0,Chelsea,Everton,Antonio Conte,Ronald Koeman
+23,3,0.0,2.0,Crystal Palace,Swansea City,Roy Hodgson,Paul Clement
+24,3,0.0,0.0,Huddersfield Town,Southampton,David Wagner,Mauricio Pellegrino
+25,3,2.0,0.0,Manchester United,Leicester City,Jose Mourinho,Craig Shakespeare
+26,3,3.0,0.0,New Castle United,West Ham United,Rafael Benitez,Slaven Bilic
+27,3,0.0,0.0,Watford,Brighton and Hove Albion,Marco Silva,Chris Hughton
+28,3,4.0,0.0,Liverpool,Arsenal,Jurgen Klopp,Arsene Wenger
+29,3,1.0,1.0,Tottenham Hotspur,Burnley,Mauricio Pochettino,Sean Dyche
+30,3,1.0,1.0,West Bromwich Albion,Stoke City,Tony Pulis,Mark Hughes
+31,4,3.0,0.0,Arsenal,Bournemouth,Arsene Wenger,Eddie Howe
+32,4,3.0,1.0,Brighton and Hove Albion,West Bromwich Albion,Chris Hughton,Tony Pulis
+33,4,0.0,3.0,Everton,Tottenham Hotspur,Ronald Koeman,Mauricio Pochettino
+34,4,1.0,2.0,Leicester City,Chelsea,Craig Shakespeare,Antonio Conte
+35,4,5.0,0.0,Manchester City,Liverpool,Pep Guardiola,Jurgen Klopp
+36,4,0.0,2.0,Southampton,Watford,Mauricio Pellegrino,Marco Silva
+37,4,2.0,2.0,Stoke City,Manchester United,Mark Hughes,Jose Mourinho
+38,4,1.0,0.0,Burnley,Crystal Palace,Sean Dyche,Roy Hodgson
+39,4,0.0,1.0,Swansea City,New Castle United,Paul Clement,Rafael Benitez
+40,4,2.0,0.0,West Ham United,Huddersfield Town,Slaven Bilic,David Wagner
+41,5,2.0,1.0,Bournemouth,Brighton and Hove Albion,Eddie Howe,Chris Hughton
+42,5,0.0,1.0,Crystal Palace,Southampton,Roy Hodgson,Mauricio Pellegrino
+43,5,1.0,1.0,Huddersfield Town,Leicester City,David Wagner,Craig Shakespeare
+44,5,1.0,1.0,Liverpool,Burnley,Jurgen Klopp,Sean Dyche
+45,5,2.0,1.0,New Castle United,Stoke City,Rafael Benitez,Mark Hughes
+46,5,0.0,0.0,Tottenham Hotspur,Swansea City,Mauricio Pochettino,Paul Clement
+47,5,0.0,6.0,Watford,Manchester City,Marco Silva,Pep Guardiola
+48,5,0.0,0.0,West Bromwich Albion,West Ham United,Tony Pulis,Slaven Bilic
+49,5,0.0,0.0,Chelsea,Arsenal,Antonio Conte,Arsene Wenger
+50,5,4.0,0.0,Manchester United,Everton,Jose Mourinho,Ronald Koeman
+51,6,0.0,0.0,Burnley,Huddersfield Town,Sean Dyche,David Wagner
+52,6,2.0,1.0,Everton,Bournemouth,Ronald Koeman,Eddie Howe
+53,6,2.0,3.0,Leicester City,Liverpool,Craig Shakespeare,Jurgen Klopp
+54,6,5.0,0.0,Manchester City,Crystal Palace,Pep Guardiola,Roy Hodgson
+55,6,0.0,1.0,Southampton,Manchester United,Mauricio Pellegrino,Jose Mourinho
+56,6,0.0,4.0,Stoke City,Chelsea,Mark Hughes,Antonio Conte
+57,6,1.0,2.0,Swansea City,Watford,Paul Clement,Marco Silva
+58,6,2.0,3.0,West Ham United,Tottenham Hotspur,Slaven Bilic,Mauricio Pochettino
+59,6,1.0,0.0,Brighton and Hove Albion,New Castle United,Chris Hughton,Rafael Benitez
+60,6,2.0,0.0,Arsenal,West Bromwich Albion,Arsene Wenger,Tony Pulis
+61,7,0.0,0.0,Bournemouth,Leicester City,Eddie Howe,Craig Shakespeare
+62,7,0.0,1.0,Chelsea,Manchester City,Antonio Conte,Pep Guardiola
+63,7,0.0,4.0,Huddersfield Town,Tottenham Hotspur,David Wagner,Mauricio Pochettino
+64,7,4.0,0.0,Manchester United,Crystal Palace,Jose Mourinho,Roy Hodgson
+65,7,2.0,1.0,Stoke City,Southampton,Mark Hughes,Mauricio Pellegrino
+66,7,2.0,2.0,West Bromwich Albion,Watford,Tony Pulis,Marco Silva
+67,7,1.0,0.0,West Ham United,Swansea City,Slaven Bilic,Paul Clement
+68,7,2.0,0.0,Arsenal,Brighton and Hove Albion,Arsene Wenger,Chris Hughton
+69,7,0.0,1.0,Everton,Burnley,Ronald Koeman,Sean Dyche
+70,7,1.0,1.0,New Castle United,Liverpool,Rafael Benitez,Jurgen Klopp
+71,8,,,Brighton and Hove Albion,Everton,Chris Hughton,Ronald Koeman
+72,8,,,Burnley,West Ham United,Sean Dyche,Slaven Bilic
+73,8,,,Crystal Palace,Chelsea,Roy Hodgson,Antonio Conte
+74,8,,,Leicester City,West Bromwich Albion,Craig Shakespeare,Tony Pulis
+75,8,,,Liverpool,Manchester United,Jurgen Klopp,Jose Mourinho
+76,8,,,Manchester City,Stoke City,Pep Guardiola,Mark Hughes
+77,8,,,Southampton,New Castle United,Mauricio Pellegrino,Rafael Benitez
+78,8,,,Swansea City,Huddersfield Town,Paul Clement,David Wagner
+79,8,,,Tottenham Hotspur,Bournemouth,Mauricio Pochettino,Eddie Howe
+80,8,,,Watford,Arsenal,Marco Silva,Arsene Wenger
+81,9,,,Chelsea,Watford,Antonio Conte,Marco Silva
+82,9,,,Everton,Arsenal,Ronald Koeman,Arsene Wenger
+83,9,,,Huddersfield Town,Manchester United,David Wagner,Jose Mourinho
+84,9,,,Manchester City,Burnley,Pep Guardiola,Sean Dyche
+85,9,,,New Castle United,Crystal Palace,Rafael Benitez,Roy Hodgson
+86,9,,,Southampton,West Bromwich Albion,Mauricio Pellegrino,Tony Pulis
+87,9,,,Stoke City,Bournemouth,Mark Hughes,Eddie Howe
+88,9,,,Swansea City,Leicester City,Paul Clement,Craig Shakespeare
+89,9,,,Tottenham Hotspur,Liverpool,Mauricio Pochettino,Jurgen Klopp
+90,9,,,West Ham United,Brighton and Hove Albion,Slaven Bilic,Chris Hughton
+91,10,,,Arsenal,Swansea City,Arsene Wenger,Paul Clement
+92,10,,,Bournemouth,Chelsea,Eddie Howe,Antonio Conte
+93,10,,,Brighton and Hove Albion,Southampton,Chris Hughton,Mauricio Pellegrino
+94,10,,,Burnley,New Castle United,Sean Dyche,Rafael Benitez
+95,10,,,Crystal Palace,West Ham United,Roy Hodgson,Slaven Bilic
+96,10,,,Leicester City,Everton,Craig Shakespeare,Ronald Koeman
+97,10,,,Liverpool,Huddersfield Town,Jurgen Klopp,David Wagner
+98,10,,,Manchester United,Tottenham Hotspur,Jose Mourinho,Mauricio Pochettino
+99,10,,,Watford,Stoke City,Marco Silva,Mark Hughes
+100,10,,,West Bromwich Albion,Manchester City,Tony Pulis,Pep Guardiola
+101,11,,,Chelsea,Manchester United,Antonio Conte,Jose Mourinho
+102,11,,,Everton,Watford,Ronald Koeman,Marco Silva
+103,11,,,Huddersfield Town,West Bromwich Albion,David Wagner,Tony Pulis
+104,11,,,New Castle United,Bournemouth,Rafael Benitez,Eddie Howe
+105,11,,,Southampton,Burnley,Mauricio Pellegrino,Sean Dyche
+106,11,,,Stoke City,Leicester City,Mark Hughes,Craig Shakespeare
+107,11,,,Swansea City,Brighton and Hove Albion,Paul Clement,Chris Hughton
+108,11,,,Tottenham Hotspur,Crystal Palace,Mauricio Pochettino,Roy Hodgson
+109,11,,,West Ham United,Liverpool,Slaven Bilic,Jurgen Klopp
+110,11,,,Manchester City,Arsenal,Pep Guardiola,Arsene Wenger
+111,12,,,Arsenal,Tottenham Hotspur,Arsene Wenger,Mauricio Pochettino
+112,12,,,Bournemouth,Huddersfield Town,Eddie Howe,David Wagner
+113,12,,,Brighton and Hove Albion,Stoke City,Chris Hughton,Mark Hughes
+114,12,,,Burnley,Swansea City,Sean Dyche,Paul Clement
+115,12,,,Crystal Palace,Everton,Roy Hodgson,Ronald Koeman
+116,12,,,Leicester City,Manchester City,Craig Shakespeare,Pep Guardiola
+117,12,,,Liverpool,Southampton,Jurgen Klopp,Mauricio Pellegrino
+118,12,,,Manchester United,New Castle United,Jose Mourinho,Rafael Benitez
+119,12,,,Watford,West Ham United,Marco Silva,Slaven Bilic
+120,12,,,West Bromwich Albion,Chelsea,Tony Pulis,Antonio Conte
+121,13,,,Crystal Palace,Stoke City,Roy Hodgson,Mark Hughes
+122,13,,,Huddersfield Town,Manchester City,David Wagner,Pep Guardiola
+123,13,,,Liverpool,Chelsea,Jurgen Klopp,Antonio Conte
+124,13,,,Manchester United,Brighton and Hove Albion,Jose Mourinho,Chris Hughton
+125,13,,,New Castle United,Watford,Rafael Benitez,Marco Silva
+126,13,,,Southampton,Everton,Mauricio Pellegrino,Ronald Koeman
+127,13,,,Swansea City,Bournemouth,Paul Clement,Eddie Howe
+128,13,,,Tottenham Hotspur,West Bromwich Albion,Mauricio Pochettino,Tony Pulis
+129,13,,,West Ham United,Leicester City,Slaven Bilic,Craig Shakespeare
+130,13,,,Burnley,Arsenal,Sean Dyche,Arsene Wenger
+131,14,,,Brighton and Hove Albion,Crystal Palace,Chris Hughton,Roy Hodgson
+132,14,,,Leicester City,Tottenham Hotspur,Craig Shakespeare,Mauricio Pochettino
+133,14,,,Watford,Manchester United,Marco Silva,Jose Mourinho
+134,14,,,West Bromwich Albion,New Castle United,Tony Pulis,Rafael Benitez
+135,14,,,Arsenal,Huddersfield Town,Arsene Wenger,David Wagner
+136,14,,,Bournemouth,Burnley,Eddie Howe,Sean Dyche
+137,14,,,Chelsea,Swansea City,Antonio Conte,Paul Clement
+138,14,,,Everton,West Ham United,Ronald Koeman,Slaven Bilic
+139,14,,,Manchester City,Southampton,Pep Guardiola,Mauricio Pellegrino
+140,14,,,Stoke City,Liverpool,Mark Hughes,Jurgen Klopp
+141,15,,,Arsenal,Manchester United,Arsene Wenger,Jose Mourinho
+142,15,,,Bournemouth,Southampton,Eddie Howe,Mauricio Pellegrino
+143,15,,,Brighton and Hove Albion,Liverpool,Chris Hughton,Jurgen Klopp
+144,15,,,Chelsea,New Castle United,Antonio Conte,Rafael Benitez
+145,15,,,Everton,Huddersfield Town,Ronald Koeman,David Wagner
+146,15,,,Leicester City,Burnley,Craig Shakespeare,Sean Dyche
+147,15,,,Manchester City,West Ham United,Pep Guardiola,Slaven Bilic
+148,15,,,Stoke City,Swansea City,Mark Hughes,Paul Clement
+149,15,,,Watford,Tottenham Hotspur,Marco Silva,Mauricio Pochettino
+150,15,,,West Bromwich Albion,Crystal Palace,Tony Pulis,Roy Hodgson
+151,16,,,Burnley,Watford,Sean Dyche,Marco Silva
+152,16,,,Crystal Palace,Bournemouth,Roy Hodgson,Eddie Howe
+153,16,,,Huddersfield Town,Brighton and Hove Albion,David Wagner,Chris Hughton
+154,16,,,Liverpool,Everton,Jurgen Klopp,Ronald Koeman
+155,16,,,Manchester United,Manchester City,Jose Mourinho,Pep Guardiola
+156,16,,,New Castle United,Leicester City,Rafael Benitez,Craig Shakespeare
+157,16,,,Swansea City,West Bromwich Albion,Paul Clement,Tony Pulis
+158,16,,,Tottenham Hotspur,Stoke City,Mauricio Pochettino,Mark Hughes
+159,16,,,West Ham United,Chelsea,Slaven Bilic,Antonio Conte
+160,16,,,Southampton,Arsenal,Mauricio Pellegrino,Arsene Wenger
+161,17,,,Burnley,Stoke City,Sean Dyche,Mark Hughes
+162,17,,,Crystal Palace,Watford,Roy Hodgson,Marco Silva
+163,17,,,Huddersfield Town,Chelsea,David Wagner,Antonio Conte
+164,17,,,Manchester United,Bournemouth,Jose Mourinho,Eddie Howe
+165,17,,,Swansea City,Manchester City,Paul Clement,Pep Guardiola
+166,17,,,Liverpool,West Bromwich Albion,Jurgen Klopp,Tony Pulis
+167,17,,,New Castle United,Everton,Rafael Benitez,Ronald Koeman
+168,17,,,Southampton,Leicester City,Mauricio Pellegrino,Craig Shakespeare
+169,17,,,Tottenham Hotspur,Brighton and Hove Albion,Mauricio Pochettino,Chris Hughton
+170,17,,,West Ham United,Arsenal,Slaven Bilic,Arsene Wenger
+171,18,,,Arsenal,New Castle United,Arsene Wenger,Rafael Benitez
+172,18,,,Bournemouth,Liverpool,Eddie Howe,Jurgen Klopp
+173,18,,,Brighton and Hove Albion,Burnley,Chris Hughton,Sean Dyche
+174,18,,,Chelsea,Southampton,Antonio Conte,Mauricio Pellegrino
+175,18,,,Everton,Swansea City,Ronald Koeman,Paul Clement
+176,18,,,Leicester City,Crystal Palace,Craig Shakespeare,Roy Hodgson
+177,18,,,Manchester City,Tottenham Hotspur,Pep Guardiola,Mauricio Pochettino
+178,18,,,Stoke City,West Ham United,Mark Hughes,Slaven Bilic
+179,18,,,Watford,Huddersfield Town,Marco Silva,David Wagner
+180,18,,,West Bromwich Albion,Manchester United,Tony Pulis,Jose Mourinho
+181,19,,,Arsenal,Liverpool,Arsene Wenger,Jurgen Klopp
+182,19,,,Brighton and Hove Albion,Watford,Chris Hughton,Marco Silva
+183,19,,,Burnley,Tottenham Hotspur,Sean Dyche,Mauricio Pochettino
+184,19,,,Everton,Chelsea,Ronald Koeman,Antonio Conte
+185,19,,,Leicester City,Manchester United,Craig Shakespeare,Jose Mourinho
+186,19,,,Manchester City,Bournemouth,Pep Guardiola,Eddie Howe
+187,19,,,Southampton,Huddersfield Town,Mauricio Pellegrino,David Wagner
+188,19,,,Stoke City,West Bromwich Albion,Mark Hughes,Tony Pulis
+189,19,,,Swansea City,Crystal Palace,Paul Clement,Roy Hodgson
+190,19,,,West Ham United,New Castle United,Slaven Bilic,Rafael Benitez
+191,20,,,Bournemouth,West Ham United,Eddie Howe,Slaven Bilic
+192,20,,,Chelsea,Brighton and Hove Albion,Antonio Conte,Chris Hughton
+193,20,,,Crystal Palace,Arsenal,Roy Hodgson,Arsene Wenger
+194,20,,,Huddersfield Town,Stoke City,David Wagner,Mark Hughes
+195,20,,,Liverpool,Swansea City,Jurgen Klopp,Paul Clement
+196,20,,,Manchester United,Burnley,Jose Mourinho,Sean Dyche
+197,20,,,New Castle United,Manchester City,Rafael Benitez,Pep Guardiola
+198,20,,,Tottenham Hotspur,Southampton,Mauricio Pochettino,Mauricio Pellegrino
+199,20,,,Watford,Leicester City,Marco Silva,Craig Shakespeare
+200,20,,,West Bromwich Albion,Everton,Tony Pulis,Ronald Koeman
+201,21,,,Bournemouth,Everton,Eddie Howe,Ronald Koeman
+202,21,,,Chelsea,Stoke City,Antonio Conte,Mark Hughes
+203,21,,,Crystal Palace,Manchester City,Roy Hodgson,Pep Guardiola
+204,21,,,Huddersfield Town,Burnley,David Wagner,Sean Dyche
+205,21,,,Liverpool,Leicester City,Jurgen Klopp,Craig Shakespeare
+206,21,,,Manchester United,Southampton,Jose Mourinho,Mauricio Pellegrino
+207,21,,,New Castle United,Brighton and Hove Albion,Rafael Benitez,Chris Hughton
+208,21,,,Tottenham Hotspur,West Ham United,Mauricio Pochettino,Slaven Bilic
+209,21,,,Watford,Swansea City,Marco Silva,Paul Clement
+210,21,,,West Bromwich Albion,Arsenal,Tony Pulis,Arsene Wenger
+211,22,,,Arsenal,Chelsea,Arsene Wenger,Antonio Conte
+212,22,,,Brighton and Hove Albion,Bournemouth,Chris Hughton,Eddie Howe
+213,22,,,Burnley,Liverpool,Sean Dyche,Jurgen Klopp
+214,22,,,Everton,Manchester United,Ronald Koeman,Jose Mourinho
+215,22,,,Leicester City,Huddersfield Town,Craig Shakespeare,David Wagner
+216,22,,,Manchester City,Watford,Pep Guardiola,Marco Silva
+217,22,,,Southampton,Crystal Palace,Mauricio Pellegrino,Roy Hodgson
+218,22,,,Stoke City,New Castle United,Mark Hughes,Rafael Benitez
+219,22,,,Swansea City,Tottenham Hotspur,Paul Clement,Mauricio Pochettino
+220,22,,,West Ham United,West Bromwich Albion,Slaven Bilic,Tony Pulis
+221,23,,,Bournemouth,Arsenal,Eddie Howe,Arsene Wenger
+222,23,,,Chelsea,Leicester City,Antonio Conte,Craig Shakespeare
+223,23,,,Crystal Palace,Burnley,Roy Hodgson,Sean Dyche
+224,23,,,Huddersfield Town,West Ham United,David Wagner,Slaven Bilic
+225,23,,,Liverpool,Manchester City,Jurgen Klopp,Pep Guardiola
+226,23,,,Manchester United,Stoke City,Jose Mourinho,Mark Hughes
+227,23,,,New Castle United,Swansea City,Rafael Benitez,Paul Clement
+228,23,,,Tottenham Hotspur,Everton,Mauricio Pochettino,Ronald Koeman
+229,23,,,Watford,Southampton,Marco Silva,Mauricio Pellegrino
+230,23,,,West Bromwich Albion,Brighton and Hove Albion,Tony Pulis,Chris Hughton
+231,24,,,Arsenal,Crystal Palace,Arsene Wenger,Roy Hodgson
+232,24,,,Brighton and Hove Albion,Chelsea,Chris Hughton,Antonio Conte
+233,24,,,Burnley,Manchester United,Sean Dyche,Jose Mourinho
+234,24,,,Everton,West Bromwich Albion,Ronald Koeman,Tony Pulis
+235,24,,,Leicester City,Watford,Craig Shakespeare,Marco Silva
+236,24,,,Manchester City,New Castle United,Pep Guardiola,Rafael Benitez
+237,24,,,Southampton,Tottenham Hotspur,Mauricio Pellegrino,Mauricio Pochettino
+238,24,,,Stoke City,Huddersfield Town,Mark Hughes,David Wagner
+239,24,,,Swansea City,Liverpool,Paul Clement,Jurgen Klopp
+240,24,,,West Ham United,Bournemouth,Slaven Bilic,Eddie Howe
+241,25,,,Huddersfield Town,Liverpool,David Wagner,Jurgen Klopp
+242,25,,,Swansea City,Arsenal,Paul Clement,Arsene Wenger
+243,25,,,West Ham United,Crystal Palace,Slaven Bilic,Roy Hodgson
+244,25,,,Chelsea,Bournemouth,Antonio Conte,Eddie Howe
+245,25,,,Everton,Leicester City,Ronald Koeman,Craig Shakespeare
+246,25,,,Manchester City,West Bromwich Albion,Pep Guardiola,Tony Pulis
+247,25,,,New Castle United,Burnley,Rafael Benitez,Sean Dyche
+248,25,,,Southampton,Brighton and Hove Albion,Mauricio Pellegrino,Chris Hughton
+249,25,,,Stoke City,Watford,Mark Hughes,Marco Silva
+250,25,,,Tottenham Hotspur,Manchester United,Mauricio Pochettino,Jose Mourinho
+251,26,,,Arsenal,Everton,Arsene Wenger,Ronald Koeman
+252,26,,,Bournemouth,Stoke City,Eddie Howe,Mark Hughes
+253,26,,,Brighton and Hove Albion,West Ham United,Chris Hughton,Slaven Bilic
+254,26,,,Burnley,Manchester City,Sean Dyche,Pep Guardiola
+255,26,,,Crystal Palace,New Castle United,Roy Hodgson,Rafael Benitez
+256,26,,,Leicester City,Swansea City,Craig Shakespeare,Paul Clement
+257,26,,,Liverpool,Tottenham Hotspur,Jurgen Klopp,Mauricio Pochettino
+258,26,,,Manchester United,Huddersfield Town,Jose Mourinho,David Wagner
+259,26,,,Watford,Chelsea,Marco Silva,Antonio Conte
+260,26,,,West Bromwich Albion,Southampton,Tony Pulis,Mauricio Pellegrino
+261,27,,,Chelsea,West Bromwich Albion,Antonio Conte,Tony Pulis
+262,27,,,Everton,Crystal Palace,Ronald Koeman,Roy Hodgson
+263,27,,,Huddersfield Town,Bournemouth,David Wagner,Eddie Howe
+264,27,,,Manchester City,Leicester City,Pep Guardiola,Craig Shakespeare
+265,27,,,New Castle United,Manchester United,Rafael Benitez,Jose Mourinho
+266,27,,,Southampton,Liverpool,Mauricio Pellegrino,Jurgen Klopp
+267,27,,,Stoke City,Brighton and Hove Albion,Mark Hughes,Chris Hughton
+268,27,,,Swansea City,Burnley,Paul Clement,Sean Dyche
+269,27,,,Tottenham Hotspur,Arsenal,Mauricio Pochettino,Arsene Wenger
+270,27,,,West Ham United,Watford,Slaven Bilic,Marco Silva
+271,28,,,Arsenal,Manchester City,Arsene Wenger,Pep Guardiola
+272,28,,,Bournemouth,New Castle United,Eddie Howe,Rafael Benitez
+273,28,,,Brighton and Hove Albion,Swansea City,Chris Hughton,Paul Clement
+274,28,,,Burnley,Southampton,Sean Dyche,Mauricio Pellegrino
+275,28,,,Crystal Palace,Tottenham Hotspur,Roy Hodgson,Mauricio Pochettino
+276,28,,,Leicester City,Stoke City,Craig Shakespeare,Mark Hughes
+277,28,,,Liverpool,West Ham United,Jurgen Klopp,Slaven Bilic
+278,28,,,Manchester United,Chelsea,Jose Mourinho,Antonio Conte
+279,28,,,Watford,Everton,Marco Silva,Ronald Koeman
+280,28,,,West Bromwich Albion,Huddersfield Town,Tony Pulis,David Wagner
+281,29,,,Brighton and Hove Albion,Arsenal,Chris Hughton,Arsene Wenger
+282,29,,,Burnley,Everton,Sean Dyche,Ronald Koeman
+283,29,,,Crystal Palace,Manchester United,Roy Hodgson,Jose Mourinho
+284,29,,,Leicester City,Bournemouth,Craig Shakespeare,Eddie Howe
+285,29,,,Liverpool,New Castle United,Jurgen Klopp,Rafael Benitez
+286,29,,,Manchester City,Chelsea,Pep Guardiola,Antonio Conte
+287,29,,,Southampton,Stoke City,Mauricio Pellegrino,Mark Hughes
+288,29,,,Swansea City,West Ham United,Paul Clement,Slaven Bilic
+289,29,,,Tottenham Hotspur,Huddersfield Town,Mauricio Pochettino,David Wagner
+290,29,,,Watford,West Bromwich Albion,Marco Silva,Tony Pulis
+291,30,,,Arsenal,Watford,Arsene Wenger,Marco Silva
+292,30,,,Bournemouth,Tottenham Hotspur,Eddie Howe,Mauricio Pochettino
+293,30,,,Chelsea,Crystal Palace,Antonio Conte,Roy Hodgson
+294,30,,,Everton,Brighton and Hove Albion,Ronald Koeman,Chris Hughton
+295,30,,,Huddersfield Town,Swansea City,David Wagner,Paul Clement
+296,30,,,Manchester United,Liverpool,Jose Mourinho,Jurgen Klopp
+297,30,,,New Castle United,Southampton,Rafael Benitez,Mauricio Pellegrino
+298,30,,,Stoke City,Manchester City,Mark Hughes,Pep Guardiola
+299,30,,,West Bromwich Albion,Leicester City,Tony Pulis,Craig Shakespeare
+300,30,,,West Ham United,Burnley,Slaven Bilic,Sean Dyche
+301,31,,,Bournemouth,West Bromwich Albion,Eddie Howe,Tony Pulis
+302,31,,,Burnley,Chelsea,Sean Dyche,Antonio Conte
+303,31,,,Huddersfield Town,Crystal Palace,David Wagner,Roy Hodgson
+304,31,,,Leicester City,Arsenal,Craig Shakespeare,Arsene Wenger
+305,31,,,Liverpool,Watford,Jurgen Klopp,Marco Silva
+306,31,,,Manchester City,Brighton and Hove Albion,Pep Guardiola,Chris Hughton
+307,31,,,Stoke City,Everton,Mark Hughes,Ronald Koeman
+308,31,,,Swansea City,Southampton,Paul Clement,Mauricio Pellegrino
+309,31,,,Tottenham Hotspur,New Castle United,Mauricio Pochettino,Rafael Benitez
+310,31,,,West Ham United,Manchester United,Slaven Bilic,Jose Mourinho
+311,32,,,Arsenal,Stoke City,Arsene Wenger,Mark Hughes
+312,32,,,Brighton and Hove Albion,Leicester City,Chris Hughton,Craig Shakespeare
+313,32,,,Chelsea,Tottenham Hotspur,Antonio Conte,Mauricio Pochettino
+314,32,,,Crystal Palace,Liverpool,Roy Hodgson,Jurgen Klopp
+315,32,,,Everton,Manchester City,Ronald Koeman,Pep Guardiola
+316,32,,,Manchester United,Swansea City,Jose Mourinho,Paul Clement
+317,32,,,New Castle United,Huddersfield Town,Rafael Benitez,David Wagner
+318,32,,,Watford,Bournemouth,Marco Silva,Eddie Howe
+319,32,,,West Bromwich Albion,Burnley,Tony Pulis,Sean Dyche
+320,32,,,West Ham United,Southampton,Slaven Bilic,Mauricio Pellegrino
+321,33,,,Arsenal,Southampton,Arsene Wenger,Mauricio Pellegrino
+322,33,,,Bournemouth,Crystal Palace,Eddie Howe,Roy Hodgson
+323,33,,,Brighton and Hove Albion,Huddersfield Town,Chris Hughton,David Wagner
+324,33,,,Chelsea,West Ham United,Antonio Conte,Slaven Bilic
+325,33,,,Everton,Liverpool,Ronald Koeman,Jurgen Klopp
+326,33,,,Leicester City,New Castle United,Craig Shakespeare,Rafael Benitez
+327,33,,,Manchester City,Manchester United,Pep Guardiola,Jose Mourinho
+328,33,,,Stoke City,Tottenham Hotspur,Mark Hughes,Mauricio Pochettino
+329,33,,,Watford,Burnley,Marco Silva,Sean Dyche
+330,33,,,West Bromwich Albion,Swansea City,Tony Pulis,Paul Clement
+331,34,,,Burnley,Leicester City,Sean Dyche,Craig Shakespeare
+332,34,,,Crystal Palace,Brighton and Hove Albion,Roy Hodgson,Chris Hughton
+333,34,,,Huddersfield Town,Watford,David Wagner,Marco Silva
+334,34,,,Liverpool,Bournemouth,Jurgen Klopp,Eddie Howe
+335,34,,,Manchester United,West Bromwich Albion,Jose Mourinho,Tony Pulis
+336,34,,,New Castle United,Arsenal,Rafael Benitez,Arsene Wenger
+337,34,,,Southampton,Chelsea,Mauricio Pellegrino,Antonio Conte
+338,34,,,Swansea City,Everton,Paul Clement,Ronald Koeman
+339,34,,,Tottenham Hotspur,Manchester City,Mauricio Pochettino,Pep Guardiola
+340,34,,,West Ham United,Stoke City,Slaven Bilic,Mark Hughes
+341,35,,,Arsenal,West Ham United,Arsene Wenger,Slaven Bilic
+342,35,,,Bournemouth,Manchester United,Eddie Howe,Jose Mourinho
+343,35,,,Brighton and Hove Albion,Tottenham Hotspur,Chris Hughton,Mauricio Pochettino
+344,35,,,Chelsea,Huddersfield Town,Antonio Conte,David Wagner
+345,35,,,Everton,New Castle United,Ronald Koeman,Rafael Benitez
+346,35,,,Leicester City,Southampton,Craig Shakespeare,Mauricio Pellegrino
+347,35,,,Manchester City,Swansea City,Pep Guardiola,Paul Clement
+348,35,,,Stoke City,Burnley,Mark Hughes,Sean Dyche
+349,35,,,Watford,Crystal Palace,Marco Silva,Roy Hodgson
+350,35,,,West Bromwich Albion,Liverpool,Tony Pulis,Jurgen Klopp
+351,36,,,Burnley,Brighton and Hove Albion,Sean Dyche,Chris Hughton
+352,36,,,Crystal Palace,Leicester City,Roy Hodgson,Craig Shakespeare
+353,36,,,Huddersfield Town,Everton,David Wagner,Ronald Koeman
+354,36,,,Liverpool,Stoke City,Jurgen Klopp,Mark Hughes
+355,36,,,Manchester United,Arsenal,Jose Mourinho,Arsene Wenger
+356,36,,,New Castle United,West Bromwich Albion,Rafael Benitez,Tony Pulis
+357,36,,,Southampton,Bournemouth,Mauricio Pellegrino,Eddie Howe
+358,36,,,Swansea City,Chelsea,Paul Clement,Antonio Conte
+359,36,,,Tottenham Hotspur,Watford,Mauricio Pochettino,Marco Silva
+360,36,,,West Ham United,Manchester City,Slaven Bilic,Pep Guardiola
+361,37,,,Arsenal,Burnley,Arsene Wenger,Sean Dyche
+362,37,,,Bournemouth,Swansea City,Eddie Howe,Paul Clement
+363,37,,,Brighton and Hove Albion,Manchester United,Chris Hughton,Jose Mourinho
+364,37,,,Chelsea,Liverpool,Antonio Conte,Jurgen Klopp
+365,37,,,Everton,Southampton,Ronald Koeman,Mauricio Pellegrino
+366,37,,,Leicester City,West Ham United,Craig Shakespeare,Slaven Bilic
+367,37,,,Manchester City,Huddersfield Town,Pep Guardiola,David Wagner
+368,37,,,Stoke City,Crystal Palace,Mark Hughes,Roy Hodgson
+369,37,,,Watford,New Castle United,Marco Silva,Rafael Benitez
+370,37,,,West Bromwich Albion,Tottenham Hotspur,Tony Pulis,Mauricio Pochettino
+371,38,,,Burnley,Bournemouth,Sean Dyche,Eddie Howe
+372,38,,,Crystal Palace,West Bromwich Albion,Roy Hodgson,Tony Pulis
+373,38,,,Huddersfield Town,Arsenal,David Wagner,Arsene Wenger
+374,38,,,Liverpool,Brighton and Hove Albion,Jurgen Klopp,Chris Hughton
+375,38,,,Manchester United,Watford,Jose Mourinho,Marco Silva
+376,38,,,New Castle United,Chelsea,Rafael Benitez,Antonio Conte
+377,38,,,Southampton,Manchester City,Mauricio Pellegrino,Pep Guardiola
+378,38,,,Swansea City,Stoke City,Paul Clement,Mark Hughes
+379,38,,,Tottenham Hotspur,Leicester City,Mauricio Pochettino,Craig Shakespeare
+380,38,,,West Ham United,Everton,Slaven Bilic,Ronald Koeman
