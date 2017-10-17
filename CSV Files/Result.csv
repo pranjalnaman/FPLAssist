@@ -1,73 +1,73 @@
-1,1,4.0,3.0,Arsenal,Leicester City,Arsene Wenger,Craig Shakespeare
-2,1,0.0,2.0,Brighton and Hove Albion,Manchester City,Chris Hughton,Pep Guardiola
-3,1,2.0,3.0,Chelsea,Burnley,Antonio Conte,Sean Dyche
-4,1,0.0,3.0,Crystal Palace,Huddersfield Town,Roy Hodgson,David Wagner
-5,1,1.0,0.0,Everton,Stoke City,Ronald Koeman,Mark Hughes
-6,1,0.0,0.0,Southampton,Swansea City,Mauricio Pellegrino,Paul Clement
-7,1,3.0,3.0,Watford,Liverpool,Marco Silva,Jurgen Klopp
-8,1,1.0,0.0,West Bromwich Albion,Bournemouth,Tony Pulis,Eddie Howe
-9,1,4.0,0.0,Manchester United,West Ham United,Jose Mourinho,Slaven Bilic
-10,1,0.0,2.0,New Castle United,Tottenham Hotspur,Rafael Benitez,Mauricio Pochettino
-11,2,0.0,2.0,Bournemouth,Watford,Eddie Howe,Marco Silva
-12,2,0.0,1.0,Burnley,West Bromwich Albion,Sean Dyche,Tony Pulis
-13,2,2.0,0.0,Leicester City,Brighton and Hove Albion,Craig Shakespeare,Chris Hughton
-14,2,1.0,0.0,Liverpool,Crystal Palace,Jurgen Klopp,Roy Hodgson
-15,2,3.0,2.0,Southampton,West Ham United,Mauricio Pellegrino,Slaven Bilic
-16,2,1.0,0.0,Stoke City,Arsenal,Mark Hughes,Arsene Wenger
-17,2,0.0,4.0,Swansea City,Manchester United,Paul Clement,Jose Mourinho
-18,2,1.0,0.0,Huddersfield Town,New Castle United,David Wagner,Rafael Benitez
-19,2,1.0,2.0,Tottenham Hotspur,Chelsea,Mauricio Pochettino,Antonio Conte
-20,2,1.0,1.0,Manchester City,Everton,Pep Guardiola,Ronald Koeman
-21,3,1.0,2.0,Bournemouth,Manchester City,Eddie Howe,Pep Guardiola
-22,3,2.0,0.0,Chelsea,Everton,Antonio Conte,Ronald Koeman
-23,3,0.0,2.0,Crystal Palace,Swansea City,Roy Hodgson,Paul Clement
-24,3,0.0,0.0,Huddersfield Town,Southampton,David Wagner,Mauricio Pellegrino
-25,3,2.0,0.0,Manchester United,Leicester City,Jose Mourinho,Craig Shakespeare
-26,3,3.0,0.0,New Castle United,West Ham United,Rafael Benitez,Slaven Bilic
-27,3,0.0,0.0,Watford,Brighton and Hove Albion,Marco Silva,Chris Hughton
-28,3,4.0,0.0,Liverpool,Arsenal,Jurgen Klopp,Arsene Wenger
-29,3,1.0,1.0,Tottenham Hotspur,Burnley,Mauricio Pochettino,Sean Dyche
-30,3,1.0,1.0,West Bromwich Albion,Stoke City,Tony Pulis,Mark Hughes
-31,4,3.0,0.0,Arsenal,Bournemouth,Arsene Wenger,Eddie Howe
-32,4,3.0,1.0,Brighton and Hove Albion,West Bromwich Albion,Chris Hughton,Tony Pulis
-33,4,0.0,3.0,Everton,Tottenham Hotspur,Ronald Koeman,Mauricio Pochettino
-34,4,1.0,2.0,Leicester City,Chelsea,Craig Shakespeare,Antonio Conte
-35,4,5.0,0.0,Manchester City,Liverpool,Pep Guardiola,Jurgen Klopp
-36,4,0.0,2.0,Southampton,Watford,Mauricio Pellegrino,Marco Silva
-37,4,2.0,2.0,Stoke City,Manchester United,Mark Hughes,Jose Mourinho
-38,4,1.0,0.0,Burnley,Crystal Palace,Sean Dyche,Roy Hodgson
-39,4,0.0,1.0,Swansea City,New Castle United,Paul Clement,Rafael Benitez
-40,4,2.0,0.0,West Ham United,Huddersfield Town,Slaven Bilic,David Wagner
-41,5,2.0,1.0,Bournemouth,Brighton and Hove Albion,Eddie Howe,Chris Hughton
-42,5,0.0,1.0,Crystal Palace,Southampton,Roy Hodgson,Mauricio Pellegrino
-43,5,1.0,1.0,Huddersfield Town,Leicester City,David Wagner,Craig Shakespeare
-44,5,1.0,1.0,Liverpool,Burnley,Jurgen Klopp,Sean Dyche
-45,5,2.0,1.0,New Castle United,Stoke City,Rafael Benitez,Mark Hughes
-46,5,0.0,0.0,Tottenham Hotspur,Swansea City,Mauricio Pochettino,Paul Clement
-47,5,0.0,6.0,Watford,Manchester City,Marco Silva,Pep Guardiola
-48,5,0.0,0.0,West Bromwich Albion,West Ham United,Tony Pulis,Slaven Bilic
-49,5,0.0,0.0,Chelsea,Arsenal,Antonio Conte,Arsene Wenger
-50,5,4.0,0.0,Manchester United,Everton,Jose Mourinho,Ronald Koeman
-51,6,0.0,0.0,Burnley,Huddersfield Town,Sean Dyche,David Wagner
-52,6,2.0,1.0,Everton,Bournemouth,Ronald Koeman,Eddie Howe
-53,6,2.0,3.0,Leicester City,Liverpool,Craig Shakespeare,Jurgen Klopp
-54,6,5.0,0.0,Manchester City,Crystal Palace,Pep Guardiola,Roy Hodgson
-55,6,0.0,1.0,Southampton,Manchester United,Mauricio Pellegrino,Jose Mourinho
-56,6,0.0,4.0,Stoke City,Chelsea,Mark Hughes,Antonio Conte
-57,6,1.0,2.0,Swansea City,Watford,Paul Clement,Marco Silva
-58,6,2.0,3.0,West Ham United,Tottenham Hotspur,Slaven Bilic,Mauricio Pochettino
-59,6,1.0,0.0,Brighton and Hove Albion,New Castle United,Chris Hughton,Rafael Benitez
-60,6,2.0,0.0,Arsenal,West Bromwich Albion,Arsene Wenger,Tony Pulis
-61,7,0.0,0.0,Bournemouth,Leicester City,Eddie Howe,Craig Shakespeare
-62,7,0.0,1.0,Chelsea,Manchester City,Antonio Conte,Pep Guardiola
-63,7,0.0,4.0,Huddersfield Town,Tottenham Hotspur,David Wagner,Mauricio Pochettino
-64,7,4.0,0.0,Manchester United,Crystal Palace,Jose Mourinho,Roy Hodgson
-65,7,2.0,1.0,Stoke City,Southampton,Mark Hughes,Mauricio Pellegrino
-66,7,2.0,2.0,West Bromwich Albion,Watford,Tony Pulis,Marco Silva
-67,7,1.0,0.0,West Ham United,Swansea City,Slaven Bilic,Paul Clement
-68,7,2.0,0.0,Arsenal,Brighton and Hove Albion,Arsene Wenger,Chris Hughton
-69,7,0.0,1.0,Everton,Burnley,Ronald Koeman,Sean Dyche
-70,7,1.0,1.0,New Castle United,Liverpool,Rafael Benitez,Jurgen Klopp
+1,1,4,3,Arsenal,Leicester City,Arsene Wenger,Craig Shakespeare
+2,1,0,2,Brighton and Hove Albion,Manchester City,Chris Hughton,Pep Guardiola
+3,1,2,3,Chelsea,Burnley,Antonio Conte,Sean Dyche
+4,1,0,3,Crystal Palace,Huddersfield Town,Roy Hodgson,David Wagner
+5,1,1,0,Everton,Stoke City,Ronald Koeman,Mark Hughes
+6,1,0,0,Southampton,Swansea City,Mauricio Pellegrino,Paul Clement
+7,1,3,3,Watford,Liverpool,Marco Silva,Jurgen Klopp
+8,1,1,0,West Bromwich Albion,Bournemouth,Tony Pulis,Eddie Howe
+9,1,4,0,Manchester United,West Ham United,Jose Mourinho,Slaven Bilic
+10,1,0,2,New Castle United,Tottenham Hotspur,Rafael Benitez,Mauricio Pochettino
+11,2,0,2,Bournemouth,Watford,Eddie Howe,Marco Silva
+12,2,0,1,Burnley,West Bromwich Albion,Sean Dyche,Tony Pulis
+13,2,2,0,Leicester City,Brighton and Hove Albion,Craig Shakespeare,Chris Hughton
+14,2,1,0,Liverpool,Crystal Palace,Jurgen Klopp,Roy Hodgson
+15,2,3,2,Southampton,West Ham United,Mauricio Pellegrino,Slaven Bilic
+16,2,1,0,Stoke City,Arsenal,Mark Hughes,Arsene Wenger
+17,2,0,4,Swansea City,Manchester United,Paul Clement,Jose Mourinho
+18,2,1,0,Huddersfield Town,New Castle United,David Wagner,Rafael Benitez
+19,2,1,2,Tottenham Hotspur,Chelsea,Mauricio Pochettino,Antonio Conte
+20,2,1,1,Manchester City,Everton,Pep Guardiola,Ronald Koeman
+21,3,1,2,Bournemouth,Manchester City,Eddie Howe,Pep Guardiola
+22,3,2,0,Chelsea,Everton,Antonio Conte,Ronald Koeman
+23,3,0,2,Crystal Palace,Swansea City,Roy Hodgson,Paul Clement
+24,3,0,0,Huddersfield Town,Southampton,David Wagner,Mauricio Pellegrino
+25,3,2,0,Manchester United,Leicester City,Jose Mourinho,Craig Shakespeare
+26,3,3,0,New Castle United,West Ham United,Rafael Benitez,Slaven Bilic
+27,3,0,0,Watford,Brighton and Hove Albion,Marco Silva,Chris Hughton
+28,3,4,0,Liverpool,Arsenal,Jurgen Klopp,Arsene Wenger
+29,3,1,1,Tottenham Hotspur,Burnley,Mauricio Pochettino,Sean Dyche
+30,3,1,1,West Bromwich Albion,Stoke City,Tony Pulis,Mark Hughes
+31,4,3,0,Arsenal,Bournemouth,Arsene Wenger,Eddie Howe
+32,4,3,1,Brighton and Hove Albion,West Bromwich Albion,Chris Hughton,Tony Pulis
+33,4,0,3,Everton,Tottenham Hotspur,Ronald Koeman,Mauricio Pochettino
+34,4,1,2,Leicester City,Chelsea,Craig Shakespeare,Antonio Conte
+35,4,5,0,Manchester City,Liverpool,Pep Guardiola,Jurgen Klopp
+36,4,0,2,Southampton,Watford,Mauricio Pellegrino,Marco Silva
+37,4,2,2,Stoke City,Manchester United,Mark Hughes,Jose Mourinho
+38,4,1,0,Burnley,Crystal Palace,Sean Dyche,Roy Hodgson
+39,4,0,1,Swansea City,New Castle United,Paul Clement,Rafael Benitez
+40,4,2,0,West Ham United,Huddersfield Town,Slaven Bilic,David Wagner
+41,5,2,1,Bournemouth,Brighton and Hove Albion,Eddie Howe,Chris Hughton
+42,5,0,1,Crystal Palace,Southampton,Roy Hodgson,Mauricio Pellegrino
+43,5,1,1,Huddersfield Town,Leicester City,David Wagner,Craig Shakespeare
+44,5,1,1,Liverpool,Burnley,Jurgen Klopp,Sean Dyche
+45,5,2,1,New Castle United,Stoke City,Rafael Benitez,Mark Hughes
+46,5,0,0,Tottenham Hotspur,Swansea City,Mauricio Pochettino,Paul Clement
+47,5,0,6,Watford,Manchester City,Marco Silva,Pep Guardiola
+48,5,0,0,West Bromwich Albion,West Ham United,Tony Pulis,Slaven Bilic
+49,5,0,0,Chelsea,Arsenal,Antonio Conte,Arsene Wenger
+50,5,4,0,Manchester United,Everton,Jose Mourinho,Ronald Koeman
+51,6,0,0,Burnley,Huddersfield Town,Sean Dyche,David Wagner
+52,6,2,1,Everton,Bournemouth,Ronald Koeman,Eddie Howe
+53,6,2,3,Leicester City,Liverpool,Craig Shakespeare,Jurgen Klopp
+54,6,5,0,Manchester City,Crystal Palace,Pep Guardiola,Roy Hodgson
+55,6,0,1,Southampton,Manchester United,Mauricio Pellegrino,Jose Mourinho
+56,6,0,4,Stoke City,Chelsea,Mark Hughes,Antonio Conte
+57,6,1,2,Swansea City,Watford,Paul Clement,Marco Silva
+58,6,2,3,West Ham United,Tottenham Hotspur,Slaven Bilic,Mauricio Pochettino
+59,6,1,0,Brighton and Hove Albion,New Castle United,Chris Hughton,Rafael Benitez
+60,6,2,0,Arsenal,West Bromwich Albion,Arsene Wenger,Tony Pulis
+61,7,0,0,Bournemouth,Leicester City,Eddie Howe,Craig Shakespeare
+62,7,0,1,Chelsea,Manchester City,Antonio Conte,Pep Guardiola
+63,7,0,4,Huddersfield Town,Tottenham Hotspur,David Wagner,Mauricio Pochettino
+64,7,4,0,Manchester United,Crystal Palace,Jose Mourinho,Roy Hodgson
+65,7,2,1,Stoke City,Southampton,Mark Hughes,Mauricio Pellegrino
+66,7,2,2,West Bromwich Albion,Watford,Tony Pulis,Marco Silva
+67,7,1,0,West Ham United,Swansea City,Slaven Bilic,Paul Clement
+68,7,2,0,Arsenal,Brighton and Hove Albion,Arsene Wenger,Chris Hughton
+69,7,0,1,Everton,Burnley,Ronald Koeman,Sean Dyche
+70,7,1,1,New Castle United,Liverpool,Rafael Benitez,Jurgen Klopp
 71,8,,,Brighton and Hove Albion,Everton,Chris Hughton,Ronald Koeman
 72,8,,,Burnley,West Ham United,Sean Dyche,Slaven Bilic
 73,8,,,Crystal Palace,Chelsea,Roy Hodgson,Antonio Conte
