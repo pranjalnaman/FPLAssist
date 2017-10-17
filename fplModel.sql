@@ -1,5 +1,4 @@
 -- MySQL Workbench Forward Engineering
-
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
@@ -20,9 +19,9 @@ USE `FPL` ;
 CREATE TABLE IF NOT EXISTS `FPL`.`Team` (
   `id` INT NOT NULL,
   `name` VARCHAR(50) NOT NULL,
-  `rank` INT NOT NULL,
   `city` VARCHAR(45) NOT NULL,
   `region` VARCHAR(45) NOT NULL,
+
   `stadium` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
@@ -34,7 +33,6 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `FPL`.`Player` (
   `pid` INT NOT NULL,
   `name` VARCHAR(150) NOT NULL,
-  `nationality` VARCHAR(45) NOT NULL,
   `position` VARCHAR(3) NOT NULL,
   PRIMARY KEY (`pid`),
   UNIQUE INDEX `pid_UNIQUE` (`pid` ASC))
@@ -75,22 +73,6 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `FPL`.`History`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `FPL`.`History` (
-  `league_trophies` INT NOT NULL,
-  `fa_trophies` INT NOT NULL,
-  `efl_trophies` INT NOT NULL,
-  `wins` INT NOT NULL,
-  `losses` INT NOT NULL,
-  `draws` INT NOT NULL,
-  `Team_id` INT NOT NULL,
-  INDEX `fk_History_Team1_idx` (`Team_id` ASC),
-  CONSTRAINT `fk_History_Team1`
-    FOREIGN KEY (`Team_id`)
-    REFERENCES `FPL`.`Team` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
 
 -- -----------------------------------------------------
 -- Table `FPL`.`Manager`
@@ -99,7 +81,6 @@ CREATE TABLE IF NOT EXISTS `FPL`.`Manager` (
   `id` INT NOT NULL,
   `name` VARCHAR(45) NOT NULL,
   `birth_country` VARCHAR(45) NOT NULL,
-  `years_as_manager` INT NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
@@ -109,39 +90,15 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `FPL`.`Result` (
   `id` INT NOT NULL,
-  `gameweek` INT NOT NULL,
-  `home_score` INT NULL,
-  `away_score` INT NULL,
-  `home_Team_id` INT NOT NULL,
-  `away_Team_id` INT NOT NULL,
-  `home_Manager_id` INT NOT NULL,
-  `away_Manager_id` INT NOT NULL,
+  `gameweek` INT,
+  `home_score` DOUBLE,
+  `away_score` DOUBLE,
+  `home_Team_id` VARCHAR(50) NOT NULL,
+  `away_Team_id` VARCHAR(50) NOT NULL,
+  `home_Manager_id` VARCHAR(50) NOT NULL,
+  `away_Manager_id` VARCHAR(50) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE INDEX `mid_UNIQUE` (`id` ASC),
-  INDEX `fk_Result_Team1_idx` (`home_Team_id` ASC),
-  INDEX `fk_Result_Team2_idx` (`away_Team_id` ASC),
-  INDEX `fk_Result_Manager1_idx` (`home_Manager_id` ASC),
-  INDEX `fk_Result_Manager2_idx` (`away_Manager_id` ASC),
-  CONSTRAINT `fk_Result_Team1`
-    FOREIGN KEY (`home_Team_id`)
-    REFERENCES `FPL`.`Team` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_Result_Team2`
-    FOREIGN KEY (`away_Team_id`)
-    REFERENCES `FPL`.`Team` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_Result_Manager1`
-    FOREIGN KEY (`home_Manager_id`)
-    REFERENCES `FPL`.`Manager` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_Result_Manager2`
-    FOREIGN KEY (`away_Manager_id`)
-    REFERENCES `FPL`.`Manager` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+  UNIQUE INDEX `mid_UNIQUE` (`id` ASC))
 ENGINE = InnoDB;
 
 
