@@ -116,20 +116,20 @@ def get_fixture_results():
 
     team_dictionary = {
         1: 'Arsenal', 2: 'Bournemouth', 3: 'Brighton and Hove Albion', 4: 'Burnley',
-        5: 'Chelsea', 6: 'Crystal Palace', 7: 'Everton',
-        8: 'Huddersfield Town', 9: 'Leicester City', 10: 'Liverpool',
-        11: 'Manchester City', 12: 'Manchester United', 13: 'New Castle United',
-        14: 'Southampton', 15: 'Stoke City',
-        16: 'Swansea City', 17: 'Tottenham Hotspur', 18: 'Watford',
-        19: 'West Bromwich Albion', 20: 'West Ham United'
+        5: "Cardiff", 6: 'Chelsea', 7: 'Crystal Palace', 8: 'Everton',
+        9: "Fulham", 10: 'Huddersfield Town', 11: 'Leicester City', 12: 'Liverpool',
+        13: 'Manchester City', 14: 'Manchester United', 15: 'New Castle United',
+        16: 'Southampton', 17: 'Tottenham Hotspur', 18: 'Watford',
+        19: 'West Ham United', 20: "Wolves"
     }
 
     manager_dictionary = {
-        1: 'Arsene Wenger', 2: 'Eddie Howe', 3: 'Chris Hughton', 4: 'Sean Dyche', 5: 'Antonio Conte',
-        6: 'Roy Hodgson', 7: 'Ronald Koeman', 8: 'David Wagner', 9: 'Craig Shakespeare',
-        10: 'Jurgen Klopp', 11: 'Pep Guardiola', 12: 'Jose Mourinho', 13: 'Rafael Benitez',
-        14: 'Mauricio Pellegrino', 15: 'Mark Hughes', 16: 'Paul Clement',
-        17: 'Mauricio Pochettino', 18: 'Marco Silva', 19: 'Tony Pulis', 20: 'Slaven Bilic'
+        1: 'Unai Emery', 2: 'Eddie Howe', 3: 'Chris Hughton', 4: 'Sean Dyche',
+        5: 'Neil Warnock', 6: 'Maurizio Sarri', 7: 'Roy Hogdson',  8: 'Marco Silva',
+        9: 'Slavisa Jokanovic', 10: 'David Wagner', 11: 'Claude Puel', 12: 'Jurgen Klopp',
+        13: 'Pep Guardiola', 14: 'Jose Mourinho', 15: 'Rafael Benitez',
+        16: 'Mark Hughes', 17: 'Mauricio Pochettino', 18: 'Javi Gracia',
+        19: 'Manuel Pellegrini', 20: 'Nuno Espírito Santo'
     }
 
     r = urllib.request.Request('https://fantasy.premierleague.com/drf/fixtures')
